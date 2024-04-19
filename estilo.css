@@ -1,0 +1,15 @@
+section#ejercicio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin: auto;
+  }
+  fieldset {
+    border-radius: 25px;
+    padding: 20px;
+  }
+  section#ejercicio2 input#enviar {
+    float: left;
+  }

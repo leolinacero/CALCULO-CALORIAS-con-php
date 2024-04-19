@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+    <section id="ejercicio2">
+
+        <h1 class="ej2">CALCULO CALORIAS DIARIAS:</h1>
+            <form action="cal.php" method="post">
+                <fieldset>
+                    <label for="peso">Peso (en kg):</label>
+                    <input type="number" name="peso" id="peso" step="0.1" required><br><br>
+
+                    <label for="actividad">Actividad:</label>
+                    <select name="actividad" id="actividad" required>
+                        <option value="Sedentario">Sedentario</option>
+                        
+                        <option value="Moderado">Moderado/Activo</option>
+                        
+                        <option value="Muy_activo">Muy Activo</option>
+                    </select><br><br>
+
+                    <label for="objetivo">Objetivo:</label>
+                    <select name="objetivo" id="objetivo" required>
+                        <option value="Mantener">Mantener</option>
+                        <option value="Aumentar">Aumentar</option>
+                        <option value="Rebajar">Rebajar</option>
+                    </select><br><br>
+
+                    <label for="biotipo">Biotipo:</label>
+                    <select name="biotipo" id="biotipo" required>
+                        <option value="Ectomorfo">Ectomorfo</option>
+                        <option value="Mesomorfo">Mesomorfo</option>
+                        <option value="Endomorfo">Endomorfo</option>
+                    </select><br><br>
+
+                    <input type="submit" value="Calcular">
+            
+                </fieldset>
+            </form>
+    </section>
+    </body>
+</html>
